@@ -1,0 +1,72 @@
+{
+  "id": "glb-bell206",
+  "name": "Bell 206 JetRanger",
+  "manufacturer": "Bell Helicopter",
+  "model": "206 JetRanger",
+  "variant": "B",
+  "category": "helicopter",
+  "modelFile": "model.glb",
+  "units": {
+    "length": "meters",
+    "angles": "degrees"
+  },
+  "rotateY": 1.5707963267948966,
+  "components": {
+    "mainRotor": {
+      "node": "Object_2",
+      "pivot": [
+        0,
+        2.55,
+        0.1
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "minAngle": 0,
+      "maxAngle": 360,
+      "confidence": 0.95,
+      "status": "confirmed",
+      "source": "mesh-bounds"
+    },
+    "tailRotor": {
+      "node": "Object_3",
+      "pivot": [
+        0.25,
+        1.9,
+        5.4
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "minAngle": 0,
+      "maxAngle": 360,
+      "confidence": 0.9,
+      "status": "confirmed",
+      "source": "mesh-bounds"
+    }
+  },
+  "license": {
+    "license": "CC BY 4.0",
+    "author": "terran4627 — Sketchfab (modelo), bilawalsidhu/gods-eye-view (otimização)",
+    "source": "https://github.com/bilawalsidhu/gods-eye-view/tree/main/public/models",
+    "attribution": "Bell 206 JetRanger © terran4627 (Sketchfab), CC BY 4.0."
+  },
+  "manifest": {
+    "aircraftId": "bell206",
+    "features": {
+      "mainRotor": true,
+      "tailRotor": true,
+      "aileronLeft": false,
+      "elevator": false,
+      "rudder": false,
+      "gear": false,
+      "spoiler": false
+    },
+    "notes": "Helicóptero sem superfícies fixas; apenas rotores."
+  },
+  "liveries": []
+}

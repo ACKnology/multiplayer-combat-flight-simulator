@@ -1,0 +1,171 @@
+{
+  "id": "glb-b789",
+  "name": "Boeing 787-9 Dreamliner",
+  "manufacturer": "Boeing",
+  "model": "787-9",
+  "variant": "Dreamliner",
+  "category": "commercial",
+  "modelFile": "model.glb",
+  "units": {
+    "length": "meters",
+    "angles": "degrees"
+  },
+  "rotateY": 4.71238898038469,
+  "components": {
+    "aileronLeft": {
+      "node": "Object_7_material11_0",
+      "pivot": [
+        -16,
+        1.6,
+        26
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "minAngle": -20,
+      "maxAngle": 20,
+      "confidence": 0.78,
+      "status": "probable",
+      "source": "mesh-bounds"
+    },
+    "aileronRight": {
+      "node": "Object_7_material11_0",
+      "pivot": [
+        16,
+        1.6,
+        26
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "minAngle": -20,
+      "maxAngle": 20,
+      "reverse": true,
+      "confidence": 0.78,
+      "status": "probable",
+      "source": "mesh-bounds"
+    },
+    "elevator": {
+      "node": "Object_13_Material.007_0",
+      "pivot": [
+        0,
+        2.6,
+        52
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "minAngle": -25,
+      "maxAngle": 25,
+      "confidence": 0.8,
+      "status": "probable",
+      "source": "mesh-bounds"
+    },
+    "rudder": {
+      "node": "Object_39_material09_0",
+      "pivot": [
+        0,
+        6.6,
+        54
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "minAngle": -22,
+      "maxAngle": 22,
+      "confidence": 0.8,
+      "status": "probable",
+      "source": "mesh-bounds"
+    },
+    "flaps": {
+      "node": "Object_7_material11_0",
+      "pivot": [
+        0,
+        1.6,
+        27.5
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "minAngle": 0,
+      "maxAngle": -30,
+      "confidence": 0.65,
+      "status": "probable",
+      "source": "mesh-bounds"
+    },
+    "spoilers": {
+      "node": "Object_7_material11_0",
+      "pivot": [
+        0,
+        1.8,
+        25.5
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "minAngle": 0,
+      "maxAngle": 50,
+      "confidence": 0.62,
+      "status": "probable",
+      "source": "mesh-bounds"
+    },
+    "landingGear": {
+      "node": "Object_33_Material.003_0",
+      "pivot": [
+        0,
+        0.2,
+        4
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "distance": -3.4,
+      "mode": "translate",
+      "minAngle": 0,
+      "maxAngle": 90,
+      "confidence": 0.6,
+      "status": "probable",
+      "source": "mesh-bounds"
+    }
+  },
+  "liveries": [
+    "glb-b789-factory"
+  ],
+  "license": {
+    "license": "CC BY 4.0",
+    "author": "Nobilis 2 — Sketchfab (modelo), bilawalsidhu/gods-eye-view (otimização)",
+    "source": "https://github.com/bilawalsidhu/gods-eye-view/tree/main/public/models",
+    "attribution": "Boeing 787-9 © Nobilis 2 (Sketchfab), CC BY 4.0; otimizado por God's Eye View."
+  },
+  "manifest": {
+    "aircraftId": "b789",
+    "features": {
+      "aileronLeft": true,
+      "aileronRight": true,
+      "elevator": true,
+      "rudder": true,
+      "flapL": true,
+      "flapR": true,
+      "spoiler": true,
+      "gear": true,
+      "propeller": false,
+      "reverser": false,
+      "door": false
+    },
+    "notes": "Articulações propostas por geometria do modelo (pivôs sintéticos); revisão no Inspector obrigatória."
+  }
+}

@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Rajdhani", "IBM Plex Sans", sans-serif;
+  --font-sans: "IBM Plex Sans", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+
+html,
+body {
+  height: 100%;
+  overscroll-behavior: none;
+}
+
+/* fundo do hangar: grade tática + brilhos ambientes */
+.hangar-bg {
+  background:
+    radial-gradient(ellipse 60% 40% at 75% -5%, rgba(56, 189, 248, 0.09), transparent 60%),
+    radial-gradient(ellipse 50% 35% at 15% 105%, rgba(251, 191, 36, 0.08), transparent 60%),
+    linear-gradient(180deg, #0a1220 0%, #0b1520 45%, #0a0f18 100%);
+}
+.hangar-bg::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(148, 163, 184, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(148, 163, 184, 0.05) 1px, transparent 1px);
+  background-size: 44px 44px;
+  mask-image: radial-gradient(ellipse 80% 70% at 50% 30%, black 30%, transparent 100%);
+  pointer-events: none;
+}
+
+/* loader radar */
+.radar-loader {
+  position: relative;
+  overflow: hidden;
+}
+.radar-loader::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 9999px;
+  background: conic-gradient(from 0deg, rgba(52, 211, 153, 0.7), transparent 70deg);
+  animation: radar-spin 1.2s linear infinite;
+}
+@keyframes radar-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* scrollbar dos painéis */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.5);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(71, 85, 105, 0.8);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(100, 116, 139, 1);
+}

@@ -1,0 +1,72 @@
+{
+  "id": "glb-jet",
+  "name": "Caça Multirole (demo)",
+  "manufacturer": "Demonstração",
+  "model": "Caça Genérico",
+  "variant": "v1",
+  "category": "military",
+  "modelFile": "model.glb",
+  "units": {
+    "length": "meters",
+    "angles": "degrees"
+  },
+  "rotateY": 1.5707963267948966,
+  "components": {
+    "elevator": {
+      "node": "Object_37",
+      "pivot": [
+        0,
+        1.4,
+        7.5
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "minAngle": -25,
+      "maxAngle": 25,
+      "confidence": 0.75,
+      "status": "probable",
+      "source": "mesh-bounds"
+    },
+    "rudder": {
+      "node": "Object_40",
+      "pivot": [
+        0,
+        2.6,
+        7.6
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "minAngle": -22,
+      "maxAngle": 22,
+      "confidence": 0.72,
+      "status": "probable",
+      "source": "mesh-bounds"
+    }
+  },
+  "license": {
+    "license": "CC BY 4.0",
+    "author": "Nick the Name — Sketchfab (modelo), bilawalsidhu/gods-eye-view (otimização)",
+    "source": "https://github.com/bilawalsidhu/gods-eye-view/tree/main/public/models",
+    "attribution": "Private Jet © Nick the Name (Sketchfab), CC BY 4.0; adaptado como caça demo."
+  },
+  "manifest": {
+    "aircraftId": "jet",
+    "features": {
+      "elevator": true,
+      "rudder": true,
+      "aileronLeft": false,
+      "aileronRight": false,
+      "gear": false,
+      "spoiler": false,
+      "propeller": false
+    },
+    "notes": "Caça genérico (demo) — ailerons/flaps não detectados; configuração via Inspector."
+  },
+  "liveries": []
+}

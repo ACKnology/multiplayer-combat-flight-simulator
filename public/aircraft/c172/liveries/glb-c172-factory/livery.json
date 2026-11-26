@@ -1,0 +1,26 @@
+{
+  "id": "glb-c172-factory",
+  "aircraftId": "glb-c172",
+  "name": "Fábrica Cessna (branco/vermelho)",
+  "airline": "Cessna",
+  "registration": "PT-SOL",
+  "country": "Brasil",
+  "description": "Pintura oficial da fábrica — branco com listra vermelha lateral.",
+  "license": "CC BY 4.0",
+  "origin": "Modelo base (texturas embutidas no GLB)",
+  "decals": [
+    {
+      "text": "PT-SOL",
+      "position": [
+        0,
+        0.62,
+        2.1
+      ],
+      "size": [
+        1.25,
+        0.34
+      ],
+      "yaw": 90
+    }
+  ]
+}

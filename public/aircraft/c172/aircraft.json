@@ -1,0 +1,76 @@
+{
+  "id": "glb-c172",
+  "name": "Cessna 172 Skyhawk",
+  "manufacturer": "Cessna",
+  "model": "172P",
+  "variant": "Skyhawk",
+  "category": "general-aviation",
+  "modelFile": "model.glb",
+  "units": {
+    "length": "meters",
+    "angles": "degrees"
+  },
+  "rotateY": 1.5707963267948966,
+  "components": {
+    "flaps": {
+      "node": "Object_7",
+      "pivot": [
+        0,
+        0.28,
+        2.0
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "minAngle": 0,
+      "maxAngle": 30,
+      "confidence": 0.7,
+      "status": "probable",
+      "source": "mesh-bounds"
+    },
+    "propeller": {
+      "node": "Object_10",
+      "pivot": [
+        0,
+        0.55,
+        -3.95
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "minAngle": 0,
+      "maxAngle": 360,
+      "confidence": 0.86,
+      "status": "confirmed",
+      "source": "mesh-bounds"
+    }
+  },
+  "liveries": [
+    "glb-c172-factory"
+  ],
+  "license": {
+    "license": "CC BY 4.0",
+    "author": "e737 — Sketchfab (modelo), bilawalsidhu/gods-eye-view (otimização)",
+    "source": "https://github.com/bilawalsidhu/gods-eye-view/tree/main/public/models",
+    "attribution": "Cessna 172 © e737 (Sketchfab), CC BY 4.0; otimizado por God's Eye View."
+  },
+  "manifest": {
+    "aircraftId": "c172",
+    "features": {
+      "flapL": true,
+      "flapR": true,
+      "propeller": true,
+      "aileronLeft": false,
+      "aileronRight": false,
+      "rudder": false,
+      "gear": false,
+      "spoiler": false,
+      "door": false
+    },
+    "notes": "Modelo estático CC BY 4.0 (2 meshes); articulações criadas por pivôs sintéticos artificiais para demonstração."
+  }
+}

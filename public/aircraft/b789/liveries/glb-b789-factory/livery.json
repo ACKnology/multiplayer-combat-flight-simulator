@@ -1,0 +1,26 @@
+{
+  "id": "glb-b789-factory",
+  "aircraftId": "glb-b789",
+  "name": "787 Fábrica",
+  "airline": "Boeing",
+  "registration": "N789FT",
+  "country": "EUA",
+  "description": "Pintura de fábrica da Boeing para o 787-9.",
+  "license": "CC BY 4.0",
+  "origin": "Modelo base (texturas embutidas no GLB)",
+  "decals": [
+    {
+      "text": "N789FT",
+      "position": [
+        0,
+        2.2,
+        18
+      ],
+      "size": [
+        2.2,
+        0.6
+      ],
+      "yaw": 90
+    }
+  ]
+}
